@@ -27,18 +27,24 @@
 .brand-section{
     background-color: #0e0e0e11 !important;
 }
+.feature{
+    background-color:#a9a8a833;
+}
+.contact{
+    background-color:#1B222C;
+}
+.concolor{
+    color:#6c757d !important;
+}
+footer {
+    background: #3F454D;
+}
+footer li{
+    color:#ffffff7a;
+    list-style: none;
+    padding: 10px 0;
 
-
-
-
-
-/* Responsive */
-@media only screen and (max-width: 768px){
-    .middle-banner{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .navbar-nav{
-        padding-bottom: 20px !important;
-    }
+}
+footer a{
+    text-decoration: none;
 }
